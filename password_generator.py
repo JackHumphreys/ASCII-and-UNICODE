@@ -9,4 +9,4 @@ for count in range(pass_length):
     ran_choice3 = random.randint(97,122)
     ran_list = [ran_choice1,ran_choice2,ran_choice3]
     pw = random.choice(ran_list)
-    print(chr(pw))
+    print(chr(pw),end="")
